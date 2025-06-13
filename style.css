@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://cliparts101.com/files/812/1DA50CE55A286438F4752547243D9C58/tn_Sugar_Maple.png');
+}
+
+p {
+    justify-self: center;
+    font-size: 28px;
+}
+
+.span-1 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.span-2 {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.txt-field{
+    background-color: rgba(46, 2, 4, 0.747);
+    width: 400px;
+    justify-self: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 20px;
+    border: 4px solid rgb(251, 255, 0);
+    border-radius: 15px;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+button > span{
+    padding: 10px;
+}
