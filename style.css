@@ -1,36 +1,43 @@
+html {
+  font-size: 12px; /* Базовый размер для мобилок */
+}
+@media (min-width: 768px) {
+  html { font-size: 14px; }
+}
+
 body {
     background-image: url('https://cliparts101.com/files/812/1DA50CE55A286438F4752547243D9C58/tn_Sugar_Maple.png');
 }
 
 p {
     justify-self: center;
-    font-size: 28px;
+    font-size: 2rem;
 }
 
 .span-1 {
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .span-2 {
     padding-left: 40px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .txt-field{
     background-color: rgba(46, 2, 4, 0.747);
-    width: 400px;
+    width: 340px;
     justify-self: center;
     margin-top: 20px;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    
     padding: 20px;
     border: 4px solid rgb(251, 255, 0);
     border-radius: 15px;
 }
 
 button {
-    font-size: 18px;
+    font-size: 1.5rem;
     border-radius: 10px;
     height: 40px;
 }
