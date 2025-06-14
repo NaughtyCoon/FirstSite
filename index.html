@@ -3,33 +3,282 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://naughtycoon.github.io/FirstSite/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="txt-field">
-        <p>Островок поэзии</p>
-    </div>
-    
-    <div class="txt-field">
-        <span class="span-1">Стою у клёна я, напротив ясеня.</span><br>
-        <span class="span-1">Неразделённая любовь несчастная!</span><br>
-        <span class="span-2">Любовь пришла ко мне до срока, ранняя.</span><br>
-        <span class="span-2">С тех пор я как во сне, любовью ранена.</span><br>
-        <br>
-        <span class="span-1">Как это вышло, как? Самой не верится...</span><br>
-        <span class="span-1">Была подруженька, теперь - соперница!</span><br>
-        <span class="span-2">Была сестрицею, а стала вороном.</span><br>
-        <span class="span-2">Не поделиться нам любовью поровну...</span><br>
-        <br>
-        <span class="span-1">Тебе поверю, клён, печали тяжкие:</span><br>
-        <span class="span-1">Не может выбрать он между двойняшками.</span><br>
-        <span class="span-2">Он выбор делает, да не торопится,</span><br>
-        <span class="span-2">А сердце бедное тоской заходится!</span><br><br>
-    </div>
-    <div class="txt-field">
-        <div style="display: flex; justify-content: center;">
-            <button type="button" onclick="alert('Пока не работает. Дайте наличкой.')"><span>Задонатить автору бабла</span></button>
+    <div class="main-field">
+        <div class="head-area">
+            <div class="ref-area">
+                <div class="menu-tab"><span>TOUR GUIDE</span></div>
+                <div class="menu-tab"><a href="#stories">Stories</a></div>
+                <div class="menu-tab"><a href="#gallery">Gallery</a></div>
+                <div class="menu-tab"><a href="#features">Features</a></div>
+                <div class="menu-tab"><a href="#write-to-us">Write to us</a></div>
+            </div>
+            <div class="social-networks">
+                <div><a href="https://example.com" target="_blank"><img src="icons/twitter-128.png" alt=""></a></div>
+                <div><a href="https://example.com" target="_blank"><img src="icons/facebook-128.png" alt=""></a></div>
+                <div><a href="https://example.com" target="_blank"><img src="icons/instagram-2-128.png" alt=""></a></div>
+                <div><a href="https://example.com" target="_blank"><img src="icons/youtube-128.png" alt=""></a></div>
+                <div><a href="https://example.com" target="_blank"><img src="icons/gmail-128.png" alt=""></a></div>
+                <div class="menu-btn"><img src="icons/menu.png"/></div>
+            </div>
+        </div>
+        <div class="greeting">
+            <div class="gr-text">
+                <div><span>Let's hit the road</span></div>
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, numquam. Et ex quasi obcaecati omnis? Expedita saepe sit laboriosam sint. Nulla nam nihil facilis repellat voluptatibus facere id! Rem deserunt aspernatur incidunt assumenda id quos earum sequi dolorum fugiat sint?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusamus rem, odio mollitia minima maxime tempore doloremque fugiat architecto ut.</p>
+                </div>
+                <form action="https://example.com" target="_blank">
+                    <input type="submit" value="START" />
+                </form>
+            </div>
+            <div class="gr-img">
+                <img src="images/CampFire.jpg" alt="">
+            </div>
+        </div>
+        <a name="stories"></a>
+        <div class="story-right">
+            <div class="gr-img">
+                <img src="images/StoryRight.png" alt="">
+            </div>
+            <div class="gr-text">
+                <div><span class="story-header">Story</span></div>
+                <div>
+                    <p>Facilis, doloremque, cupiditate quos ratione aliquam magnam voluptatum fugit possimus labore distinctio nihil aut nulla laboriosam, at voluptatibus sequi? Reprehenderit aspernatur nam sequi iure amet minus eos quae inventore accusantium in ipsam cumque vero, veritatis alias dolorum suscipit sed?</p>
+                </div>
+                <form action="https://example.com" target="_blank">
+                    <input type="submit" value="MORE" />
+                </form>
+            </div>
+        </div>
+        <div class="story-left">
+            <div class="gr-text">
+                <div><span class="story-header">Story</span></div>
+                <div>                    
+                    <p>Vel sit, facilis soluta voluptate pariatur quod amet incidunt dolore optio qui quis facere iusto excepturi perferendis nihil similique nemo, iure vitae culpa maxime, provident nam quidem voluptatibus. Qui vero accusamus a vitae, amet dolorem ratione quaerat error ducimus rerum quos libero dignissimos.</p>
+                </div>
+                <form action="https://example.com" target="_blank">
+                    <input type="submit" value="MORE" />
+                </form>
+            </div>
+            <div class="gr-img">
+                <img src="images/StoryLeft.jpg" alt="">
+            </div>
+        </div>
+        <a name="gallery"></a>
+        <div class="gallery">
+            <div class="block-header">
+                <p class="block-header-text">Gallery</p>
+            </div>
+            <div class="snap-gallery">
+                <figure class="snap-item"><img src="images/Gallery-1.jpeg" alt="">
+                    <div class="text-above">
+                        <h3>Title 1</h3>
+                        <p>Vel vero delectus cum ducimus officiis adipisci id mollitia aliquam rem at, neque corrupti laborum perspiciatis consectetur accusantium!</p>
+                        <div class="more-btn">
+                            <a href="https://example.com" target="_blank">MORE</a>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="snap-item"><img src="images/Gallery-2.jpg" alt="">
+                    <div class="text-above">
+                        <h3>Title 2</h3>
+                        <p>Vel vero delectus cum ducimus officiis adipisci id mollitia aliquam rem at, neque corrupti laborum perspiciatis consectetur accusantium!</p>
+                        <div class="more-btn">
+                            <a href="https://example.com" target="_blank">MORE</a>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="snap-item"><img src="images/Gallery-3.jpg" alt="">
+                    <div class="text-above">
+                        <h3>Title 3</h3>
+                        <p>Vel vero delectus cum ducimus officiis adipisci id mollitia aliquam rem at, neque corrupti laborum perspiciatis consectetur accusantium!</p>
+                        <div class="more-btn">
+                            <a href="https://example.com" target="_blank">MORE</a>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="snap-item"><img src="images/Gallery-4.jpg" alt="">
+                    <div class="text-above">
+                        <h3>Title 4</h3>
+                        <p>Vel vero delectus cum ducimus officiis adipisci id mollitia aliquam rem at, neque corrupti laborum perspiciatis consectetur accusantium!</p>
+                        <div class="more-btn">
+                            <a href="https://example.com" target="_blank">MORE</a>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="snap-item"><img src="images/Gallery-5.jpg" alt="">
+                    <div class="text-above">
+                        <h3>Title 5</h3>
+                        <p>Vel vero delectus cum ducimus officiis adipisci id mollitia aliquam.</p>
+                        <div class="more-btn">
+                            <a href="https://example.com" target="_blank">MORE</a>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="snap-item"><img src="images/Gallery-26.jpg" alt="">
+                    <div class="text-above">
+                        <h3>Title 6</h3>
+                        <p>Vel vero delectus cum ducimus officiis adipisci id mollitia aliquam rem at, neque corrupti laborum perspiciatis consectetur accusantium!</p>
+                        <div class="more-btn">
+                            <a href="https://example.com" target="_blank">MORE</a>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="arrow-left"><img hidden src="icons/left.png" width="60px"></div>
+            <div class="arrow-right"><img hidden src="icons/right.png" width="60px"></div>
+        </div>
+        <a name="features"></a>
+        <div class="features">            
+            <div class="block-header">
+                <p class="block-header-text">Features</p>
+            </div>
+            <div class="feature-blocks">
+                <div class="f-block">
+                    <div><img src="icons/airplane-48.png" alt=""></div>
+                    <div class="feature-header">
+                        <p>One</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Pariatur a repudiandae non ut praesentium omnis cupiditate soluta at neque ab ipsa modi quisquam nisi, architecto asperiores autem!</p>
+                    </div>
+                </div>
+                <div class="f-block">
+                    <div><img src="icons/map_marker-48.png" alt=""></div>
+                    <div class="feature-header">
+                        <p>Two</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Pariatur a repudiandae non ut praesentium omnis cupiditate soluta at neque ab ipsa modi quisquam nisi, architecto asperiores autem!</p>
+                    </div>
+                </div>
+                <div class="f-block">
+                    <div><img src="icons/movie-48.png" alt=""></div>
+                    <div class="feature-header">
+                        <p>Three</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Pariatur a repudiandae non ut praesentium omnis cupiditate soluta at neque ab ipsa modi quisquam nisi, architecto asperiores autem!</p>
+                    </div>
+                </div>
+                <div class="f-block">
+                    <div><img src="icons/alarm_clock-48.png" alt=""></div>
+                    <div class="feature-header">
+                        <p>Four</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Pariatur a repudiandae non ut praesentium omnis cupiditate soluta at neque ab ipsa modi quisquam nisi, architecto asperiores autem!</p>
+                    </div>
+                </div>
+                <div class="f-block">
+                    <div><img src="icons/face-48.png" alt=""></div>
+                    <div class="feature-header">
+                        <p>Five</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Pariatur a repudiandae non ut praesentium omnis cupiditate soluta at neque ab ipsa modi quisquam nisi, architecto asperiores autem!</p>
+                    </div>
+                </div>
+                <div class="f-block">
+                    <div><img src="icons/genius-48.png" alt=""></div>
+                    <div class="feature-header">
+                        <p>Six</p>
+                    </div>
+                    <div class="feature-text">
+                        <p>Pariatur a repudiandae non ut praesentium omnis cupiditate soluta at neque ab ipsa modi quisquam nisi, architecto asperiores autem!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a name="write-to-us"></a>
+        <div class="write-to-us">
+            <div class="block-header">
+                <p class="block-header-text">Write to us</p>
+            </div>
+            <form>
+                <div class="contacts">
+                    <div>
+                        <label>Name:<br>
+                        <input type="text" placeholder="Your name">
+                        </label>
+                    </div>
+                    <div>
+                        <label>E-mail:<br>
+                        <input type="text" placeholder="Your E-mail">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Phone:<br>
+                        <input type="text" placeholder="Your phone">
+                        </label>
+                    </div>
+                </div>
+                <div class="prefs">
+                    Contact me via:
+                    <input type="radio" id="contactChoice1" name="contact" value="email" checked />
+                    <label for="contactChoice1">Email</label>
+                  
+                    <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                    <label for="contactChoice2">Phone</label>
+                  
+                    <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                    <label for="contactChoice3">Telegram</label>
+                </div>
+                <div class="topic">
+                    <label>Topic:<br>
+                        <select>
+                            <option value="Option1">Post my story</option>
+                            <option value="Option1">Make me an offer</option>
+                            <option value="Option1">Send me a price</option>
+                            <option value="Option1">Send me a schedule</option>
+                            <option value="Option1">Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="message">
+                    <label>Message:<br>
+                        <textarea type="text" placeholder="Type your message here" rows="6"></textarea>
+                    </label>
+                </div>
+            </form>
+            <div class="check-human">
+                <div>
+                    <input type="checkbox" id="cb">
+                    <label for="cb">I am a human</label>
+                </div>
+                <div>
+                    <form action="https://example.com" target="_blank">
+                        <input type="submit" value="SEND" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-networks">
+                <div>
+                    <a href="https://example.com" target="_blank"><img src="icons/twitter-128.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://example.com" target="_blank"><img src="icons/facebook-128.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://example.com" target="_blank"><img src="icons/instagram-2-128.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://example.com" target="_blank"><img src="icons/youtube-128.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://example.com" target="_blank"><img src="icons/gmail-128.png" alt=""></a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy Toshi Goro Software Industries, 2025
+            </div>
         </div>
     </div>
 </body>
